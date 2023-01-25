@@ -4,9 +4,7 @@
  */
 let isPalindrome = (x) => {
 	if (x < 0) return false;
-	else if (x === 0) {
-		return true;
-	} else {
+	else {
 		let str = x.toString();
 
 		for (let i = 0; i < str.length; i++) {
